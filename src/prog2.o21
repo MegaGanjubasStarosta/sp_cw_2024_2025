@@ -1,0 +1,57 @@
+{*Prog1*}
+Mainprogram 
+Data Int16_t _Aaaaa,_Bbbbb,_Ccccc;
+Start
+Input _Aaaaa;
+Input _Bbbbb;
+Input _Ccccc;
+If(_Aaaaa > _Bbbbb)
+Start
+	If(_Aaaaa > _Ccccc)
+	Start
+		Goto Abigger;		
+	End
+	Else
+	Start
+		Output _Ccccc;
+		Goto Outofif;
+		Abigger:		
+		Output _Aaaaa;
+		Goto Outofif;
+	End
+End	
+If(_Bbbbb < _Ccccc)
+Start
+	Output _Ccccc;
+End	
+Else
+Start
+	Output _Bbbbb;
+End
+Outofif:	
+
+If((_Aaaaa Eq _Bbbbb) && (_Aaaaa Eq _Ccccc) && (_Bbbbb Eq _Ccccc))
+Start
+	Output 1;
+End	
+Else
+Start
+	Output 0;
+End
+If((_Aaaaa < 0) || (_Bbbbb < 0) || (_Ccccc < 0))
+Start
+	Output -1;
+End	
+Else
+Start
+	Output 0;
+End
+If(!!(_Aaaaa < (_Bbbbb + _Ccccc)))
+Start
+	Output(10);
+End	
+Else
+Start
+	Output(0);
+End
+End

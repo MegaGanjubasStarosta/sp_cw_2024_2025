@@ -1,0 +1,45 @@
+{*Prog1*}
+Mainprogram 
+Data Int16_t _Aaaaa,_Aaaa2,_Bbbbb,_Xxxxx,_Cccc1,_Cccc2;
+Start
+Input _Aaaaa;
+Input _Bbbbb;
+For _Aaaa2<-_Aaaaa To _Bbbbb Do
+	Output _Aaaa2 Mul _Aaaa2;
+
+For _Aaaa2<-_Bbbbb To _Aaaaa Do
+	Output _Aaaa2 Mul _Aaaa2;
+
+_Xxxxx<-0;
+_Cccc1<-0;
+While _Cccc1 < _Aaaaa 
+Start
+	_Cccc2<-0;
+	While _Cccc2 < _Bbbbb
+	Start	
+		_Xxxxx<-_Xxxxx + 1;
+		_Cccc2<-_Cccc2 + 1;
+	End
+	End While
+_Cccc1<-_Cccc1 + 1;
+End	
+End While
+Output _Xxxxx;
+
+_Xxxxx<-0;
+_Cccc1<-1;
+Repeat
+Start
+  _Cccc2<-1;
+  Repeat
+  Start
+    _Xxxxx<-_Xxxxx+1;
+    _Cccc2<-_Cccc2+1;
+	End
+  Until !!(_Cccc2 > _Bbbbb)
+  _Cccc1<-_Cccc1+1;
+ End
+Until !!(_Cccc1 > _Aaaaa)
+Output _Xxxxx;
+
+End

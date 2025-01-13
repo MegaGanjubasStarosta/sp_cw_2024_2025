@@ -1,0 +1,16 @@
+﻿  ast.cpp
+C:\Users\Adriyan\source\repos\spkursova_21_Oleksiuk\spkursova_21_Oleksiuk\ast.cpp(158,99): warning C4018: '<': signed/unsigned mismatch
+  codegen.cpp
+C:\Users\Adriyan\source\repos\spkursova_21_Oleksiuk\spkursova_21_Oleksiuk\codegen.cpp(90,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Adriyan\source\repos\spkursova_21_Oleksiuk\spkursova_21_Oleksiuk\codegen.cpp(95,13): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\Adriyan\source\repos\spkursova_21_Oleksiuk\spkursova_21_Oleksiuk\codegen.cpp(117,99): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Adriyan\source\repos\spkursova_21_Oleksiuk\spkursova_21_Oleksiuk\codegen.cpp(295,46): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Adriyan\source\repos\spkursova_21_Oleksiuk\spkursova_21_Oleksiuk\codegen.cpp(338,50): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Adriyan\source\repos\spkursova_21_Oleksiuk\spkursova_21_Oleksiuk\codegen.cpp(378,16): warning C4018: '<': signed/unsigned mismatch
+  codegenfromast.cpp
+  lexer.cpp
+  main.cpp
+  parser.cpp
+C:\Users\Adriyan\source\repos\spkursova_21_Oleksiuk\spkursova_21_Oleksiuk\parser.cpp(120,99): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  spkursova_21_Oleksiuk.vcxproj -> C:\Users\Adriyan\source\repos\spkursova_21_Oleksiuk\x64\Debug\spkursova_21_Oleksiuk.exe
